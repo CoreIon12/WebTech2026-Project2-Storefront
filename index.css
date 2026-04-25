@@ -1,0 +1,40 @@
+    body {
+        background: linear-gradient(to right, orange, lightblue);
+        font-family: Georgia, 'Times New Roman', Times, serif;}
+    
+    .text {
+        text-align: center;
+        margin-top: 200px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .button {
+        height: 100px;
+        width: 150px;
+        margin-top: 25px;
+        background-color: blanchedalmond;
+        border: solid black 3px;
+        border-radius: 8px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .button:hover {
+        transition-duration: 2s;
+        scale: 1.5;
+    }
+
+    #button1 {
+        order: 1;
+    }
+
+    #button2 {
+        order: 2;
+    }
